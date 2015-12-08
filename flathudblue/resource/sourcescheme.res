@@ -286,8 +286,8 @@ Scheme
 				}
 			}
 		}
-		
 	}
+	
 	Fonts
 	{
 		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes

@@ -211,6 +211,7 @@ Scheme
 		NewGame.SelectionColor		"FlatPrimary"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
+	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//

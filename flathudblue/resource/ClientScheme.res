@@ -34,7 +34,7 @@ Scheme
 		"MenuDark"      "0 62 179 255"                  //Darker borders (not used very often)
 		"MenuHover"     "0 59 168 255"                  //Hover color (only used in matchmaking and quickplay)
 		"MainMenuBG"	"0 0 0 255"						//Optional solid color background, enable in mainmenuoverride.res
-	
+		
 		//refers to Ammo values, Ammo Low is used as the low ammo BG color
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"255 255 255 255"
@@ -108,7 +108,6 @@ Scheme
 		//end flathud colors
 		
 		
-			
 		// base tf2 colors, don't change these
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
