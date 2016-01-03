@@ -7,5 +7,3 @@ zip "release/flathud-red.zip" "flathudred";
 zip "release/customizations.zip" Customization/*;
 touch release/release.md;
 echo "Released $CREATIONTIME" >> release/release.md;
-
-exit 0;
