@@ -1,8 +1,10 @@
 language: generic
 before_deploy:
   - bash create-release.sh;
+  - echo "Done creating release package.";
 deploy:
   provider: releases
+  skip_cleanup: true
   api_key:
     secure: ljKRLq74GAphNaWAt1+eMMr9a3OWm4px7zu0hZ6vE587BfESyDeSbAweAkTbBDLlIo3cKzNketcm2h3WpUd8J3zZ+6wrXDAoyb4FXibcRhsAaWFCpQwEcn2/fb7mksEk9eaFLxRM5aUa0X/68gDVgwiafQmywUPQ7frif1IGZESyEmQGQcJ0jbPY8tWCxxohApfzdNgCc8k4TnfPKmtaBegpslfzPz5R2k0nQv1y0BwsoUaaPSM0PFeaHC7zkLpdszYH4b0mm8F6QI/6utlbbbB0RoMpQzBLv/oVgpDkWULXY3e8f9hYwWVDWKi7VuposxO4RygofZZ3ccJM/VRTdq7BX6WaTwU789AAuOvktLiF7choYirEsqDPPqtNKKsaDcv9bB10byrUmwywGjTsPcYj+ry5X4oi4D37W1BI4Ms7ZpM2i371apX+ZvKAkIR26XwQuh3shaVH9EtiEKnfOHp6y/Il00CnBuBq9oq+1rdMQe0HT3BQu+S3QCZSVqj3jwaPocdjbh/OSj4yX23hEZRRtS7gG19mViKTE4appSF4jGhl2gxq5CfbBhIXA4u1OwBAgMKbObMRFI+AW4S5OFp2MqMbq+t/G7olUb9gbheu3r7RfXHlJjblI6b8O+q5jVkcKVGkd7Gmlw8leFQV9Sm+TVP14wolTrFN+PIqxxg=
   file:
@@ -10,4 +12,5 @@ deploy:
     - "release/flathud-red.zip"
     - "release/customizations.zip"
 after_deploy:
+  - echo "Cleaned up release files.";
   - bash cleanup-release.sh;
