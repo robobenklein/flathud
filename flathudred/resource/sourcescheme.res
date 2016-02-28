@@ -42,8 +42,8 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"0 0 0 0"
+	    "QuickListBGSelected"               "209 0 0 255"
 	    
 	    "Blank"				"0 0 0 0"
 
@@ -372,12 +372,12 @@ Scheme
                 "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
-		}
+		}	
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"TF2 Build"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -395,7 +395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"BigNoodleTitling"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -407,7 +407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -416,7 +416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -424,7 +424,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -432,7 +432,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -441,7 +441,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -450,7 +450,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"WeblySleek UI Semibold"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -462,8 +462,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"WeblySleek UI Semibold" [!$OSX]
+				"name"		"WeblySleek UI Semibold" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
 				"tall"			"18" [$OSX]
@@ -474,8 +474,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"WeblySleek UI Semibold" [!$OSX]
+				"name"		"WeblySleek UI Semibold" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
 				"tall"			"19" [$OSX]
@@ -486,8 +486,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"WeblySleek UI Semibold" [!$OSX]
+				"name"		"WeblySleek UI Semibold" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
@@ -510,6 +510,16 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+		"10" // BigNoodleTitling (Main font)
+		{
+		    "font" "resource/fonts/big_noodle_titling.ttf"
+			"name" "BigNoodleTitling"
+        }
+		"11" // WeblySleek (Body font)
+		{
+		    "font" "resource/fonts/weblysleekuisb.ttf"
+			"name" "WeblySleek UI Semibold"
 		}
 	}
 }
