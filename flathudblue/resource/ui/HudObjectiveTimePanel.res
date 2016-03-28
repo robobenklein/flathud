@@ -17,6 +17,11 @@
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelBG2"
 	{
@@ -28,7 +33,7 @@
 		"wide"			"60"
 		"tall"			"45"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"fillcolor"     "0 0 0 100"
 	}
 	"TimePanelProgressBar"
