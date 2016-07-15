@@ -15,26 +15,92 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
+	
+	"LocalLeaderboardButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"LocalLeaderboardButton"
+		"xpos"			"p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
+		"paintbackground"			"1"
+		
+		"actionsignallevel"		"1"
+		"command"		"local"
+		"labeltext"		"#TF_Competitive_Friends"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"GlobalLeaderboardButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"GlobalLeaderboardButton"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		
+		"defaultBgColor_override"	"15 15 15 255"
+		"armedBgColor_override"		"25 25 25 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanLight"
+		"border_default"			"ButtonHover"
+		"border_armed"				"ButtonHover"
+		"paintbackground"			"1"
+
+		"actionsignallevel"		"1"
+		"command"		"global"
+		"labeltext"		"#TF_Competitive_Global"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 	"Line"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Line"
-		"xpos"				"20"
+		"xpos"				"0"
 		"ypos"				"18"
 		"wide"				"273"
 		"tall"				"2"
 		"visible"			"1"
 		"proportionaltoparent" "1"
 
-		"bgcolor_override"	"MenuMouseover"
+		"bgcolor_override"	"MenuBorder"
 	}
 
 	"ScoreListScroller"
 	{
 		"ControlName"		"ScrollableEditablePanel"
 		"fieldName"			"ScoreListScroller"
-		"xpos"				"p0.1"
+		"xpos"				"7"
 		"ypos"				"p0.1"
 		"wide"				"p0.95"
 		"tall"				"p0.95"
@@ -103,7 +169,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"230 230 230 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
