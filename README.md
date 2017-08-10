@@ -1,16 +1,16 @@
 
-#flathud
+# flathud
 
 flathud is a Team Fortress 2 HUD modification made by flatline (that's me!).  The original development started around September of 2013.  Its design aims to present the most amount of information in the least amount of space as well as reimagine the style of TF2's graphical design.
 
 
 
-#####Version: 3.1
-#####Released: March 25th, 2016
+##### Version: 3.1
+##### Released: March 25th, 2016
 
 
 
-####Changelog:
+#### Changelog:
 * Fully updated for Matchmaking (at time of this writing) 
 * Added watch streams button 
 * Created uniform styling for main menu context buttons (contracts, streams, alerts, motd) 
@@ -18,7 +18,7 @@ flathud is a Team Fortress 2 HUD modification made by flatline (that's me!).  Th
 * Deleted files relating to a now-unsupported hud management program 
 
 
-####FAQ:
+#### FAQ:
 
 
 **Q:** How do I install this?
